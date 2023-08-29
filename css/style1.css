@@ -108,12 +108,25 @@ h3{
     color: var(--color2);
     font-style: normal;
     margin-block: 16px;
+    display: block;
+}
+.section-content .list::after{
+    content: '';
+    background: var(--color2);
+    width: 80px;
+    height: 4px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 .section-content{
     counter-reset: titlelist;
 }
 .section-content .list{
     counter-increment: titlelist;
+    padding-block-end: 8px;
+    position: relative;
 }
 .section-content .list::before{
     content: counter(titlelist) ". ";
