@@ -1,0 +1,334 @@
+:root{
+    --color1: #000;
+    --color2: #545454;
+    --color3: #616161;
+}
+body{
+    margin: 0;
+    font-family: rubik;
+}
+.hero{
+    background: linear-gradient(320deg, rgba(74, 0, 224, 0.60) 28.37%, rgba(142, 45, 226, 0.50) 100%), url(../img/patron-2.png), lightgray 0% 0% / 50px 50px repeat;
+    height: 96px;
+}
+.wrapper{
+    max-inline-size: 902px;
+    margin: auto;
+}
+header{
+    padding-inline: 20px;
+}
+.variantes p{
+    color: var(--color3);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-block: 16px;
+}
+.variantes-menu{
+    list-style: none;
+    padding: 8px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.variantes-menu a{
+    color: var(--color3);
+    text-decoration: none;
+}
+.variantes li:nth-of-type(4){
+    background: var(--color1);
+    border-radius: 4px;
+}
+.variantes .template{
+    color: #fff;
+}
+.contenido{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-block-start: 104px;
+    margin-block-end: 16px;
+}
+details summary{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+}
+details summary:hover{
+    color: var(--color1);
+}
+nav ol li{
+    list-style: none;
+}
+nav ol li:hover{
+    background: #5551ff;
+}
+nav ol li a{
+    text-decoration: none;
+    color: var(--color1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 8px;
+}
+nav ol li a:hover{
+    color: #fff;
+}
+.main-content{
+    padding-inline: 20px;
+    justify-content: center;
+}
+hr{
+    display: none;
+}
+h1{
+    font-size: 24px;
+    margin-block-start: 40px;
+    color: var(--color1);
+    font-style: normal;
+    font-weight: 700;
+    margin-block-end: 16px;
+    text-align: center;
+}
+h2{
+    margin-block-start: 80px;
+    color: var(--color1);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    margin-block-end: 40px;
+    text-align: center;
+}
+h3{
+    font-size: 22px;
+    color: var(--color1);
+    font-style: normal;
+    font-weight: 400;
+    margin-block: 16px;
+    text-align: center;
+}
+p{
+    color: var(--color2);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-block-start: 16px;
+    margin-block-end: 40px;
+    line-height: 24px;
+    text-align: center;
+}
+blockquote{
+    margin-block-start: 25px;
+    margin-block-end: 40px;
+    margin-inline: 0;
+    border-inline-start: 4px solid #5551ff;
+}
+blockquote p{
+    font-size: 16px;
+    color: var(--color1);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-inline-start: 16px;
+    margin: 0;
+    text-align: start;
+}
+span p::before{
+    content: "- ";
+}
+pre{
+    color: var(--color1);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 40px;
+    border: 8px solid #5551ff;
+    box-shadow: -10px 10px 0 0 #ABAAF6;
+    border-radius: 8px;
+    margin-block-start: 16px;
+    margin-block-end: 40px;
+    overflow: auto;
+}
+.section-content img{
+    max-inline-size: 100%;
+    display: block;
+    margin-inline: auto;
+}
+.caja{
+    text-align: start;
+}
+.section-content ol{
+    margin-block-end: 40px;
+}
+ol li{
+    color: var(--color2);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-content ul{
+    margin-block-end: 40px;
+}
+ul li{
+    color: var(--color2);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-block-start: 16px;
+}
+.slider-container{
+    scroll-behavior: smooth;
+    overflow: auto;
+    white-space: nowrap;
+    display: block;
+}
+.slider-container::-webkit-scrollbar{
+    display: none;
+}
+.video{
+    height: auto;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.slider-bullet-list{
+    text-align: center;
+}
+.slider-bullet{
+    height: 16px;
+    width: 16px;
+    background: rgba(142, 45, 226, 0.50);
+    border-radius: 50%;
+    display: inline-block;
+    margin-block-start: 16px;
+    margin-inline-end: 8px;
+}
+.slider-bullet:hover{
+    background: #5551ff;
+}
+p a{
+    color: var(--color2);
+}
+p a:hover{
+    color: var(--color1);
+}
+.suscribete{
+    margin-block-start: 40px;
+    margin-block-end: 16px;
+}
+.form input{
+    inline-size: 100%;
+    color: var(--color1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-inline-start: 16px;
+    padding-inline-end: 50px;
+    padding-block: 12px;
+    border: 1px solid var(--color1);
+    border-radius: 90px;
+    margin-block-start: 16px;
+    box-sizing: border-box;
+}
+.form input[type="submit"]{
+    inline-size: 100%;
+    background: #5551ff;
+    color: #fff;
+    border: none;
+    padding-inline: 16px;
+    padding-block: 12px;
+    line-height: 26px;
+}
+.end{
+    margin-block-start: 40px;
+    line-height: 58px;
+    background: var(--color1);
+}
+.title-end{
+    font-size: 24px;
+    padding-block-start: 24px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding-block-end: 16px;
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+@media screen and (min-width: 1400px){
+    .hero{
+        height: 350px;
+    }
+    .header{
+        position: sticky;
+        inset-block-start: -45px;
+    }
+    .header-content{
+        position: relative;
+        inset-block-start: 65px;
+        padding-inline: 0;
+    }
+    header{
+        position: absolute;
+        inset-block-start: 0;
+        inset-inline-end: -208px;
+        inline-size: 188px;
+    }
+    h1{
+        font-size: 60px;
+        margin-block-start: 64px;
+    }
+    h2{
+        margin-block-start: 128px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    .section-content{
+        counter-reset: titlelist;
+    }
+    .section-content .list{
+        counter-increment: titlelist;
+    }
+    .section-content .list::before{
+        content: counter(titlelist)". ";
+    }
+    blockquote{
+        margin-block-start: 64px;
+        margin-block-end: 80px;
+    }
+    blockquote p{
+        font-size: 24px;
+    }
+    .form input{
+        inline-size: 325px;
+        margin-inline-start: 35px;
+    }
+    .form input[type="submit"]{
+        position: relative;
+        inline-size: 126px;
+        margin-inline-start: -50px;
+    }
+    .end{
+        margin-block-start: 113px;
+        line-height: 78px;
+    }
+    .title-end{
+        font-size: 32px;
+        padding-block-start: 48px;
+    }
+}
